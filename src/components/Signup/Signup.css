@@ -1,0 +1,29 @@
+.signup {
+	display: inline;
+}
+
+.header-button {
+	width: 100%;
+	background-color: hsl(248, 32%, 49%);
+	border-radius: 5px;
+	text-align: center;
+}
+
+.header-button-text {
+	color: #fff;
+	margin: auto;
+	line-height: 1.75;
+	font-size: 20px;
+}
+
+span {
+	font-weight: 400;
+}
+
+.form {
+	height: 350px;
+}
+
+.input {
+	display: block;
+}

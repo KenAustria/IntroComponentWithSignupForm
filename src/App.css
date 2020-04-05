@@ -1,1 +1,15 @@
+.App {
+	background-image: url('./images/bg-intro-desktop.png');
+	background-size: cover;
+	flex-direction: column;
+	padding: 147px 38px 109px;
+	width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+}
 
+.Main {
+	margin: auto;
+	width: 50%;
+	display: flex;
+}
