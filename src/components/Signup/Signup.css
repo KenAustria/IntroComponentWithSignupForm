@@ -1,25 +1,27 @@
 .signup {
-	display: inline;
+  text-align: center;
 }
 
 .header-button {
-	width: 100%;
-	background-color: hsl(248, 32%, 49%);
-	border-radius: 5px;
-	text-align: center;
-	margin: 10px;
+	border-radius: 16px;
+  margin: 10px;
+  padding: 32px 96px 26px;
+  font-size: 24px;
+  line-height: 1.75;
+  letter-spacing: 0.56px;
+  background-color: hsl(248, 32%, 49%);
 	box-shadow: 0 10px 0 rgba(0, 0, 0, 0.15);
 }
 
 .header-button-text {
 	color: #fff;
 	margin: auto;
-	line-height: 1.75;
-	font-size: 20px;
+  line-height: 1;
+  font-size: 20px;
 }
 
 span {
-	font-weight: 400;
+	font-weight: 600;
 }
 
 .form {
@@ -27,23 +29,62 @@ span {
 	flex-direction: column;
 	color: #000000;
 	background-color: #fff;
-	width: 100%;
-	margin-top: 38px;
-	margin-bottom: 30px;
-	padding: 38px 38px 37px;
+  margin-top: 20px;
+  padding: 38px 38px;
 	border-radius: 2px;
 	box-shadow: 0 10px 0 rgba(0, 0, 0, 0.15);
 }
 
-.field {
+.field-list {
+  margin-bottom: 30px;
 }
 
-.input {
-	border-color: hsl(248, 32%, 49%);
+.field-item:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.field {
+  display: block;
+  font-weight: 600;
+}
+
+.field-input {
+  border: 1.6px solid hsl(246, 25%, 77%);
+  width: 100%;
+  padding: 15px 29px 10px;
+  font-size: 22px;
+  letter-spacing: 0.4px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.field-input:hover, .field-input:focus {
+  border-color: hsl(249, 10%, 26%);
+  outline: none;
+}
+
+.field-input.invalid {
+  border-color: hsl(0, 100%, 74%);
+  background: url('/images/icon-error.svg') no-repeat center right;
+  background-origin: content-box;
+}
+
+.field-input.invalid + .error {
+  display: block;
+}
+
+.field-input:not(:last-child) {
+  margin-bottom: 26px;
 }
 
 .error {
-	color: hsl(0, 100%, 74%);
+  color: hsl(0, 100%, 74%);
+  display: none;
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 19px;
+  font-style: italic;
+  text-align: right;
 }
 
 .input {
