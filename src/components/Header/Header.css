@@ -1,21 +1,20 @@
 .header {
 	color: #fff;
-	text-align: center;
+	width: 40%;
 }
 
 .title {
-	margin: 0 auto;
-  font-size: 45px;
-  font-weight: 700;
-  line-height: 1.3;
-  max-width: 360px;
-  text-align: left;
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 1.3;
+	text-align: left;
+	width: 78%;
 }
 
 .sub-title {
-	margin: 32px auto 0;
-  line-height: 1.65;
-  letter-spacing: 0.16px;
-  max-width: 480px;
-  text-align: left;
+	line-height: 1.65;
+	letter-spacing: 0.16px;
+	text-align: left;
+	font-size: 20px;
+	width: 82%;
 }
