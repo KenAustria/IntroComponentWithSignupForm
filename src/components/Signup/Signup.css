@@ -1,5 +1,4 @@
 .signup {
-	text-align: center;
 	width: 40%;
 }
 
@@ -7,7 +6,8 @@
 	border-radius: 8px;
 	font-size: 24px;
 	line-height: 1.75;
-	height: 60px;
+	height: 70px;
+	text-align: center;
 	letter-spacing: 0.56px;
 	background-color: hsl(248, 32%, 49%);
 	box-shadow: 0 10px 0 rgba(0, 0, 0, 0.15);
@@ -17,7 +17,7 @@
 	color: #fff;
 	line-height: 1;
 	font-size: 20px;
-	padding: 3%;
+	padding: 4%;
 }
 
 span {
@@ -29,7 +29,7 @@ span {
 	background-color: #fff;
 	margin-top: 20px;
 	padding: 5% 5%;
-	border-radius: 2px;
+	border-radius: 10px;
 	box-shadow: 0 10px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -38,13 +38,19 @@ span {
 }
 
 .field-input {
-	border: 1.6px solid hsl(246, 25%, 77%);
+	padding: 4px;
+	height: 50px;
 	width: 100%;
 	font-size: 22px;
 	font-weight: 600;
 	letter-spacing: 0.4px;
 	border-radius: 4px;
 	cursor: pointer;
+	border: 1.6px solid hsl(246, 25%, 77%);
+}
+
+.field-input::placeholder {
+	padding: 10px;
 }
 
 .field-input:hover,
@@ -68,19 +74,24 @@ span {
 }
 
 .error {
-	color: hsl(0, 100%, 74%);
 	display: none;
+	/* color: hsl(0, 100%, 74%);
 	font-weight: 400;
 	font-size: 19px;
 	font-style: italic;
-	text-align: right;
+	text-align: right; */
 }
 
 .input {
 	display: block;
 }
 
+.footer {
+	text-align: center;
+}
+
 .trial-button {
+	height: 70px;
 	color: #fff;
 	border-radius: 10px;
 	margin: 10px;
@@ -91,8 +102,14 @@ span {
 	font-family: 'Poppins';
 	font-weight: 700;
 	background-color: hsl(154, 59%, 51%);
+	box-shadow: 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.agree {
+	color: hsl(246, 25%, 77%);
 }
 
 .legal {
 	color: hsl(0, 100%, 74%);
+	font-weight: 600;
 }

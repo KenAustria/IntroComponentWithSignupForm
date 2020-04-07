@@ -24,8 +24,10 @@ export const Signup = () => {
 					<input className='field-input' type='text' name='password' placeholder='Password' required />
 					<p className='error'>Password cannot be empty.</p>
 				</div>
-				<button className='trial-button'>Claim Your Free Trial</button>
-				<p>By clicking the button, you are agreeing to our <span className='legal'>Terms and Services</span></p>
+				<div className='footer'>
+					<button className='trial-button'>Claim Your Free Trial</button>
+					<p className='agree'>By clicking the button, you are agreeing to our <span className='legal'>Terms and Services</span></p>
+				</div>
 			</div>
 		</div>
 	)
