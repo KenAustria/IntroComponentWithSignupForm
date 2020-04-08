@@ -1,12 +1,12 @@
 .signup {
-	width: 40%;
+	width: 35%;
 }
 
 .header-button {
 	border-radius: 8px;
-	font-size: 24px;
-	line-height: 1.75;
-	height: 70px;
+	font-size: 18px;
+	line-height: 1;
+	height: 50px;
 	text-align: center;
 	letter-spacing: 0.56px;
 	background-color: hsl(248, 32%, 49%);
@@ -16,15 +16,15 @@
 .header-button-text {
 	color: #fff;
 	line-height: 1;
-	font-size: 20px;
-	padding: 4%;
+	font-size: 17px;
+	padding: 3%;
 }
 
 .form {
 	color: #000000;
 	background-color: #fff;
 	margin-top: 20px;
-	padding: 5% 5%;
+	padding: 5% 8%;
 	border-radius: 10px;
 	box-shadow: 0 10px 0 rgba(0, 0, 0, 0.15);
 }
@@ -42,7 +42,7 @@
 	letter-spacing: 0.4px;
 	border-radius: 4px;
   cursor: pointer;
-  margin-top: 25px;
+  margin-top: 20px;
 	border: 1.6px solid hsl(246, 25%, 77%);
 }
 
@@ -50,13 +50,9 @@ input.field-input {
 	text-indent: 25px;
 }
 
-.field-input:not(:first-child) {
+input:not(:first-child) {
 	margin-top: 25px;
 }
-
-/* .field-input:(:last-child) {
-	margin-bottom: 25px;
-} */
 
 .input {
 	display: block;
@@ -70,16 +66,16 @@ input.field-input {
 
 .footer {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .trial-button {
-	height: 70px;
+	height: 50px;
 	color: #fff;
 	border-radius: 10px;
 	width: 100%;
-	font-size: 24px;
-	line-height: 1.75;
+	font-size: 20px;
+	line-height: 1.5;
 	letter-spacing: 0.56px;
 	font-family: 'Poppins';
 	font-weight: 700;
@@ -88,10 +84,29 @@ input.field-input {
 }
 
 .agree {
-	color: hsl(246, 25%, 77%);
+  color: hsl(246, 25%, 77%);
+  font-size: 12px;
 }
 
 .legal {
 	color: hsl(0, 100%, 74%);
 	font-weight: 600;
+}
+
+@media only screen and (max-width: 900px) {
+  .signup {
+    width: 98%;
+  }
+  .header-button {
+    height: 65px;
+  }
+  .header-button-text {
+    padding: 5%;
+  }
+  .form {
+    padding: 2% 5%;
+  }
+  .agree {
+    font-size: 16px;
+  }
 }

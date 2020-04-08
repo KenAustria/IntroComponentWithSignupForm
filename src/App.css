@@ -2,5 +2,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 8% 0;
+	padding: 4% 0 0 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .app {
+    flex-direction: column;
+    padding: 4% 1px 0 1px;
+  }
 }
