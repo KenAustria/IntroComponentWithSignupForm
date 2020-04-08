@@ -20,10 +20,6 @@
 	padding: 4%;
 }
 
-span {
-	font-weight: 600;
-}
-
 .form {
 	color: #000000;
 	background-color: #fff;
@@ -49,41 +45,21 @@ span {
 	border: 1.6px solid hsl(246, 25%, 77%);
 }
 
-.field-input::placeholder {
-	padding: 10px;
-}
-
-.field-input:hover,
-.field-input:focus {
-	border-color: hsl(249, 10%, 26%);
-	outline: none;
-}
-
-.field-input.invalid {
-	border-color: hsl(0, 100%, 74%);
-	background: url('/images/icon-error.svg') no-repeat center right;
-	background-origin: content-box;
-}
-
-.field-input.invalid + .error {
-	display: block;
+input.field-input {
+	text-indent: 25px;
 }
 
 .field-input:not(:last-child) {
 	margin-bottom: 26px;
 }
 
-.error {
-	display: none;
-	/* color: hsl(0, 100%, 74%);
-	font-weight: 400;
-	font-size: 19px;
-	font-style: italic;
-	text-align: right; */
-}
-
 .input {
 	display: block;
+}
+
+.error {
+  color: hsl(0, 100%, 74%);
+  float: right;
 }
 
 .footer {
@@ -94,7 +70,6 @@ span {
 	height: 70px;
 	color: #fff;
 	border-radius: 10px;
-	margin: 10px;
 	width: 100%;
 	font-size: 24px;
 	line-height: 1.75;
@@ -102,7 +77,7 @@ span {
 	font-family: 'Poppins';
 	font-weight: 700;
 	background-color: hsl(154, 59%, 51%);
-	box-shadow: 0 10px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0 5px 0 rgba(0, 0, 0, 0.15);
 }
 
 .agree {
