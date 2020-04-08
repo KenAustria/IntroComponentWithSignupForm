@@ -41,7 +41,8 @@
 	font-weight: 600;
 	letter-spacing: 0.4px;
 	border-radius: 4px;
-	cursor: pointer;
+  cursor: pointer;
+  margin-top: 25px;
 	border: 1.6px solid hsl(246, 25%, 77%);
 }
 
@@ -49,9 +50,13 @@ input.field-input {
 	text-indent: 25px;
 }
 
-.field-input:not(:last-child) {
-	margin-bottom: 26px;
+.field-input:not(:first-child) {
+	margin-top: 25px;
 }
+
+/* .field-input:(:last-child) {
+	margin-bottom: 25px;
+} */
 
 .input {
 	display: block;
@@ -60,10 +65,12 @@ input.field-input {
 .error {
   color: hsl(0, 100%, 74%);
   float: right;
+  margin-top: 7px;
 }
 
 .footer {
-	text-align: center;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .trial-button {
