@@ -33,12 +33,12 @@ const Signup = () => {
 				<p className='header-button-text'><b>Try it free 7 days</b> then $20/mo. thereafter</p>
 			</div>
 			<div className='form'>
-				<form onSubmit={formik.handleSubmit}>
+				<form onSubmit={formik.handleSubmit} title='form'>
 					<div className='field-item'>
 						<input 
 							id='firstname'
 							type='text'
-							name='firstname'
+							title='firstname'
 							{...formik.getFieldProps('firstname')}
 							placeholder='First Name'
 							className='field-input'
@@ -53,7 +53,7 @@ const Signup = () => {
 						<input
 							id='lastname'
 							type='text'
-							name='lastname'
+							title='lastname'
 							{...formik.getFieldProps('lastname')}
 							placeholder='Last Name'
 							className='field-input'
@@ -68,7 +68,7 @@ const Signup = () => {
 						<input 
 							id='email'
 							type='email'
-							name='email'
+							title='email'
 							{...formik.getFieldProps('email')}
 							placeholder='Email'
 							className='field-input'
@@ -83,7 +83,7 @@ const Signup = () => {
 						<input 
 							id='password'
 							type='password'
-							name='password'
+							title='password'
 							{...formik.getFieldProps('password')}
 							placeholder='Password'
 							className='field-input'
